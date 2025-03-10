@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <style>
+        body {
+            background-color: #e3dbdf; /* Color de fondo */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            background-color: #ccc; /* Color de fondo del encabezado */
+            border: 2px solid #000000; /* Borde púrpura */
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            background-color: #e9ded8; /* Color de fondo de los campos */
+        }
+        textarea {
+            height: 100px; /* Altura del área de texto */
+        }
+        .contact-info {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="header">CONTACTANOS</div>
+    
+    <div class="form-container">
+        <div class="form-group">
+            <label for="nombre">Nombre*</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="apellido">Apellido*</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="correo">Correo electrónico*</label>
+            <input type="email" id="correo" name="correo" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="mensaje">Mensaje*</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        
+        <button type="submit">Enviar</button>
+    </div>
+
+    <div class="contact-info">
+        <p>(+57) 3202704979</p>
+        <p>RESETASDELAABU@GMAIL.COM</p>
+    </div>
+
+</body>
+</html>
